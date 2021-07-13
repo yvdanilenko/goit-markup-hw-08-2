@@ -38,7 +38,8 @@
   transition: color var(--time-cubic);
 
   &:hover,
-  &:focus {
+  &:focus,
+  &:active {
     color: var(--accent-color);
   }
 }
