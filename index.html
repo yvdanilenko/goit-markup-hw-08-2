@@ -171,7 +171,6 @@
                 class="work-section__image"
                 src="./img/box1.jpg"
                 alt="Ноутбук"
-                sizes="370px"
               />
               <p class="work-section__label">Десктопные приложения</p>
             </li>
@@ -181,7 +180,6 @@
                 class="work-section__image"
                 src="./img/box2.jpg"
                 alt="Телефон"
-                sizes="370px"
               />
               <p class="work-section__label">Мобильные приложения</p>
             </li>
@@ -191,8 +189,6 @@
                 class="work-section__image"
                 src="./img/box3.jpg"
                 alt="Планшет"
-                s
-                sizes="370px"
               />
 
               <p class="work-section__label">Дизайнерские решения</p>
@@ -274,7 +270,6 @@
 
             <li class="team-list__item">
               <picture>
-                <a href=""></a>
                 <source
                   srcset="
                     ./img/desktop/team-member2-desk-1x-min.jpg 1x,
@@ -299,7 +294,7 @@
                   media="(min-width: 480px)"
                 />
                 <img
-                  src="./img/tablet/team-member2-tabl-2x-min.jpg"
+                  src="./img/desktop/team-member2-desk-1x-min.jpg"
                   alt="Ольга Репина фото"
                 />
               </picture>
@@ -341,7 +336,6 @@
 
             <li class="team-list__item">
               <picture>
-                <a href=""></a>
                 <source
                   srcset="
                     ./img/desktop/team-member3-desk-1x-min.jpg 1x,
@@ -406,34 +400,35 @@
               </div>
             </li>
 
+          <a href=""></a>
             <li class="team-list__item">
               <picture>
                 <source
                   srcset="
-                    ./img/desktop/team-member4-desk-1x-min.jpg 1x,
-                    ./img/desktop/team-member4-desk-1x-min.jpg 2x
+                  ./img/desktop/team-member4-desk-1x-min.jpg 1x,
+                  ./img/desktop/team-member4-desk-2x-min.jpg 2x
                   "
                   media="(min-width: 1200px)"
                 />
 
                 <source
                   srcset="
-                    ./img/tablet/team-member4-tabl-1x-min.jpg 1x,
-                    ./img/tablet/team-member4-tabl-2x-min.jpg 2x
+                  ./img/tablet/team-member4-tab1x-min.jpg 1x,
+                  ./img/tablet/team-member4-tab2x-min.jpg 2x
                   "
                   media="(min-width: 768px)"
                 />
 
                 <source
                   srcset="
-                    ./img/mobile/team-member4-mob-1x-min.jpg 1x,
-                    ./img/mobile/team-member4-mob-2x-min.jpg 2x
+                  ./img/mobile/team-member4-mob-1x-min.jpg 1x,
+                  ./img/mobile/team-member4-mob-2x-min.jpg 2x
                   "
                   media="(min-width: 480px)"
                 />
                 <img
-                  src="/img/desktop/team-member4-desk-1x-min.jpg"
-                  alt="Михаил Ермаков фото"
+                  src="./img/desktop/team-member4-desk-1x-min.jpg"
+                  alt="Игорь Демьяненко фото"
                 />
               </picture>
               <div class="team-card">
@@ -471,8 +466,6 @@
                 </ul>
               </div>
             </li>
-          </ul>
-        </div>
       </section>
 
       <!-- clients-->
@@ -613,8 +606,9 @@
     <!-- mobile-modal menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
-        <svg class="" width="40" height="40">
-          <use href="./images/icons/icons.svg#icon-close-cross"></use>
+        <svg class="" width="18.67" height="18.67">
+         
+          <use href="./img/icons.svg#icon-close-button"></use>
         </svg>
       </button>
 
